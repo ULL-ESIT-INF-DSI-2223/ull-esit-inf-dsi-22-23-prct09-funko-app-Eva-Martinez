@@ -8,6 +8,9 @@ En este informe se redactan las pautas seguidas para la realización de la prác
 
 Como siempre, en primer lugar, se ha aceptado la asignación de esta tarea en *GitHub Classroom* y a continuación se comprendieron la utilización de paquetes *yargs* y *chalk* y la *API síncrona proporcionada por Node.js* las cuales se utilizaron en esta práctica. A continuación se muestra tanto el *Coverage Status* como el *SonarCloud*:
 
+[![Coverage Status](https://coveralls.io/repos/github/ULL-ESIT-INF-DSI-2223/ull-esit-inf-dsi-22-23-prct09-funko-app-Eva-Martinez/badge.svg?branch=main)](https://coveralls.io/github/ULL-ESIT-INF-DSI-2223/ull-esit-inf-dsi-22-23-prct09-funko-app-Eva-Martinez?branch=main)
+
+
 
 # Ejercicio
 
