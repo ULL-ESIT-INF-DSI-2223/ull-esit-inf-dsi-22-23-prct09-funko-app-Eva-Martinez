@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-8d59dc4de5201274e310e4c54b9627a8934c3b88527886e3b421487c677d23eb.svg)](https://classroom.github.com/a/fmDo8ROl)",
   "main": "index.js",
-  "type": "module",
+  "type": "commonjs",
   "scripts": {
-    "start": "tsc-watch --onSuccess \"node dist/index.js\"",
+    "start": "tsc-watch --onSuccess \"node dist/funkoapp/funko_app.js\"",
     "test": "mocha",
-    "coverage": "nyc npm test && nyc report --reporter=lcov",
+    "coverage": "c8 npm test && c8 report --reporter=lcov",
     "doc": "typedoc"
   },
   "repository": {
@@ -28,6 +28,7 @@
     "@types/yargs": "^17.0.24",
     "@typescript-eslint/eslint-plugin": "^5.57.0",
     "@typescript-eslint/parser": "^5.57.0",
+    "c8": "^7.13.0",
     "chai": "^4.3.7",
     "eslint": "^8.37.0",
     "eslint-config-prettier": "^8.8.0",
@@ -40,7 +41,7 @@
     "typescript": "^5.0.2"
   },
   "dependencies": {
-    "chalk": "^5.2.0",
+    "chalk": "^4.1.2",
     "yargs": "^17.7.1"
   }
 }
