@@ -86,4 +86,4 @@ La funcionalidad de esta es crear a un usuario, para ello se hará uso de la API
 
 # Conclusiones
 
-Todos el ejercicio se ha realizado de manera adecuada a excepción de los tests, los cuales están realizados pero por un error desconocido no se permite la ejecución de los mismos.
+Todo el ejercicio se ha realizado de manera adecuada a excepción de los tests, los cuales al ejecutar el comando `npm run coverage` pasan correctamente, pero por un error desconocido la *GitHub Action* falla en los mismos.
